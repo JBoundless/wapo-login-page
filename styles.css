@@ -1,0 +1,96 @@
+body {
+  background-image: url("https://d1i4t8bqe7zgj6.cloudfront.net/thumbnails/56687e20e4b02a78df459aaa/20151209_WapoBuildingPic.jpg");
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: saturate(180%) blur(10px);
+  color: #333;
+  font-family: Times, sans-serif;
+  line-height: 1.5;
+  max-width: 45%;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+#text-box {
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 75%;
+}
+
+#next-btn {
+  width: 75%;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+
+#next-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+#amazon-btn {
+  width: 75%;
+  background-color: #FF9900;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+
+#amazon-btn:hover {
+  background-color: white;
+  color: #FF9900;
+}
+
+#fb-btn {
+  width: 75%;
+  background-color: #4267B2;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+
+#fb-btn:hover {
+  background-color: white;
+  color: #4267B2;
+}
+
+#google-btn {
+  width: 75%;
+  background-color: #4285F4;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+
+#google-btn:hover {
+  background-color: white;
+  color: #4285F4;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 18px;
+  transition: 0.2s ease all;
+}
+
+#sign-up-phrase {
+  cursor: pointer;
+}
